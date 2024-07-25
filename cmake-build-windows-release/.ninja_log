@@ -1,15 +1,9 @@
 # ninja log v6
-0	2	1721933586340764525	clean	1e1b153b8d89da74
-0	47	1721933587574787793	CMakeFiles/GPACalculator.dir/GPACalculator.cpp.o.ddi	eed02daacf607144
-47	50	1721933587621788679	CMakeFiles/GPACalculator.dir/CXX.dd	3d3b644454e2e29
-47	50	1721933587621788679	/home/dex/Documents/Code/C++/GPACalculator/cmake-build-windows-release/CMakeFiles/GPACalculator.dir/CXXModules.json	3d3b644454e2e29
-47	50	1721933587621788679	CMakeFiles/GPACalculator.dir/GPACalculator.cpp.o.modmap	3d3b644454e2e29
-50	491	1721933587624788736	CMakeFiles/GPACalculator.dir/GPACalculator.cpp.o	3fa120adc2f431ef
-492	648	1721933588066797070	GPACalculator	ccadd90b03d9adfc
 0	2	1721933634599674440	clean	1e1b153b8d89da74
-0	51	1721933635835697744	CMakeFiles/GPACalculator.dir/GPACalculator.cpp.o.ddi	eed02daacf607144
-51	53	1721933635886698706	CMakeFiles/GPACalculator.dir/CXX.dd	3d3b644454e2e29
-51	53	1721933635886698706	/home/dex/Documents/Code/C++/GPACalculator/cmake-build-windows-release/CMakeFiles/GPACalculator.dir/CXXModules.json	3d3b644454e2e29
-51	53	1721933635886698706	CMakeFiles/GPACalculator.dir/GPACalculator.cpp.o.modmap	3d3b644454e2e29
-53	505	1721933635888698744	CMakeFiles/GPACalculator.dir/GPACalculator.cpp.o	3fa120adc2f431ef
-505	664	1721933636340707266	GPACalculator	ccadd90b03d9adfc
+1	3	1721935229115906444	clean	1e1b153b8d89da74
+0	47	1721935230394930780	CMakeFiles/International-GPA-Calculator.dir/GPACalculator.cpp.o.ddi	13bca528520ae4e5
+47	49	1721935230441931674	CMakeFiles/International-GPA-Calculator.dir/CXX.dd	64a80676d3522647
+47	49	1721935230441931674	/home/dex/Documents/Code/C++/International-GPA-Calculator/cmake-build-windows-release/CMakeFiles/International-GPA-Calculator.dir/CXXModules.json	64a80676d3522647
+47	49	1721935230441931674	CMakeFiles/International-GPA-Calculator.dir/GPACalculator.cpp.o.modmap	64a80676d3522647
+49	495	1721935230443931712	CMakeFiles/International-GPA-Calculator.dir/GPACalculator.cpp.o	ae505eb4861c624a
+495	652	1721935230889940198	International-GPA-Calculator	96f1a51d0a9a75c8

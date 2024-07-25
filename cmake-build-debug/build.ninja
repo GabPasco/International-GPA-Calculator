@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: GPACalculator
+# Project: International-GPA-Calculator
 # Configurations: Debug
 # =============================================================================
 
@@ -39,55 +39,55 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/dex/Documents/Code/C++/GPACalculator/cmake-build-debug/
+cmake_ninja_workdir = /home/dex/Documents/Code/C++/International-GPA-Calculator/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target GPACalculator
+# Object build statements for EXECUTABLE target International-GPA-Calculator
 
 
 #############################################
-# Order-only phony target for GPACalculator
+# Order-only phony target for International-GPA-Calculator
 
-build cmake_object_order_depends_target_GPACalculator: phony || CMakeFiles/GPACalculator.dir
+build cmake_object_order_depends_target_International-GPA-Calculator: phony || CMakeFiles/International-GPA-Calculator.dir
 
-build CMakeFiles/GPACalculator.dir/GPACalculator.cpp.o.ddi: CXX_SCAN__GPACalculator_Debug /home/dex/Documents/Code/C++/GPACalculator/GPACalculator.cpp || cmake_object_order_depends_target_GPACalculator
-  DEP_FILE = CMakeFiles/GPACalculator.dir/GPACalculator.cpp.o.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/GPACalculator.dir/GPACalculator.cpp.o.ddi
+build CMakeFiles/International-GPA-Calculator.dir/GPACalculator.cpp.o.ddi: CXX_SCAN__International-GPA-Calculator_Debug /home/dex/Documents/Code/C++/International-GPA-Calculator/GPACalculator.cpp || cmake_object_order_depends_target_International-GPA-Calculator
+  DEP_FILE = CMakeFiles/International-GPA-Calculator.dir/GPACalculator.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/International-GPA-Calculator.dir/GPACalculator.cpp.o.ddi
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJ_FILE = CMakeFiles/GPACalculator.dir/GPACalculator.cpp.o
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles/GPACalculator.dir/GPACalculator.cpp.o.ddi.i
+  OBJ_FILE = CMakeFiles/International-GPA-Calculator.dir/GPACalculator.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/International-GPA-Calculator.dir/GPACalculator.cpp.o.ddi.i
 
-build CMakeFiles/GPACalculator.dir/GPACalculator.cpp.o: CXX_COMPILER__GPACalculator_scanned_Debug /home/dex/Documents/Code/C++/GPACalculator/GPACalculator.cpp || cmake_object_order_depends_target_GPACalculator CMakeFiles/GPACalculator.dir/CXX.dd CMakeFiles/GPACalculator.dir/GPACalculator.cpp.o.modmap
-  DEP_FILE = CMakeFiles/GPACalculator.dir/GPACalculator.cpp.o.d
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles/GPACalculator.dir/GPACalculator.cpp.o.modmap
+build CMakeFiles/International-GPA-Calculator.dir/GPACalculator.cpp.o: CXX_COMPILER__International-GPA-Calculator_scanned_Debug /home/dex/Documents/Code/C++/International-GPA-Calculator/GPACalculator.cpp || cmake_object_order_depends_target_International-GPA-Calculator CMakeFiles/International-GPA-Calculator.dir/CXX.dd CMakeFiles/International-GPA-Calculator.dir/GPACalculator.cpp.o.modmap
+  DEP_FILE = CMakeFiles/International-GPA-Calculator.dir/GPACalculator.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/International-GPA-Calculator.dir/GPACalculator.cpp.o.modmap
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/GPACalculator.dir
-  OBJECT_FILE_DIR = CMakeFiles/GPACalculator.dir
-  dyndep = CMakeFiles/GPACalculator.dir/CXX.dd
+  OBJECT_DIR = CMakeFiles/International-GPA-Calculator.dir
+  OBJECT_FILE_DIR = CMakeFiles/International-GPA-Calculator.dir
+  dyndep = CMakeFiles/International-GPA-Calculator.dir/CXX.dd
 
-build CMakeFiles/GPACalculator.dir/CXX.dd | /home/dex/Documents/Code/C++/GPACalculator/cmake-build-debug/CMakeFiles/GPACalculator.dir/CXXModules.json CMakeFiles/GPACalculator.dir/GPACalculator.cpp.o.modmap: CXX_DYNDEP__GPACalculator_Debug CMakeFiles/GPACalculator.dir/GPACalculator.cpp.o.ddi
+build CMakeFiles/International-GPA-Calculator.dir/CXX.dd | /home/dex/Documents/Code/C++/International-GPA-Calculator/cmake-build-debug/CMakeFiles/International-GPA-Calculator.dir/CXXModules.json CMakeFiles/International-GPA-Calculator.dir/GPACalculator.cpp.o.modmap: CXX_DYNDEP__International-GPA-Calculator_Debug CMakeFiles/International-GPA-Calculator.dir/GPACalculator.cpp.o.ddi
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target GPACalculator
+# Link build statements for EXECUTABLE target International-GPA-Calculator
 
 
 #############################################
-# Link the executable GPACalculator
+# Link the executable International-GPA-Calculator
 
-build GPACalculator: CXX_EXECUTABLE_LINKER__GPACalculator_Debug CMakeFiles/GPACalculator.dir/GPACalculator.cpp.o
+build International-GPA-Calculator: CXX_EXECUTABLE_LINKER__International-GPA-Calculator_Debug CMakeFiles/International-GPA-Calculator.dir/GPACalculator.cpp.o
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/GPACalculator.dir
+  OBJECT_DIR = CMakeFiles/International-GPA-Calculator.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = GPACalculator
-  TARGET_PDB = GPACalculator.dbg
+  TARGET_FILE = International-GPA-Calculator
+  TARGET_PDB = International-GPA-Calculator.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/dex/Documents/Code/C++/GPACalculator/cmake-build-debug && /home/dex/Clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/dex/Documents/Code/C++/International-GPA-Calculator/cmake-build-debug && /home/dex/Clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -98,7 +98,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/dex/Documents/Code/C++/GPACalculator/cmake-build-debug && /home/dex/Clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/dex/Documents/Code/C++/GPACalculator -B/home/dex/Documents/Code/C++/GPACalculator/cmake-build-debug
+  COMMAND = cd /home/dex/Documents/Code/C++/International-GPA-Calculator/cmake-build-debug && /home/dex/Clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/dex/Documents/Code/C++/International-GPA-Calculator -B/home/dex/Documents/Code/C++/International-GPA-Calculator/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -114,9 +114,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /home/dex/Documents/Code/C++/GPACalculator/cmake-build-debug
+# Folder: /home/dex/Documents/Code/C++/International-GPA-Calculator/cmake-build-debug
 
-build all: phony GPACalculator
+build all: phony International-GPA-Calculator
 
 # =============================================================================
 # Built-in targets
@@ -125,14 +125,14 @@ build all: phony GPACalculator
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake /home/dex/Documents/Code/C++/GPACalculator/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake /home/dex/Documents/Code/C++/International-GPA-Calculator/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake /home/dex/Documents/Code/C++/GPACalculator/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
+build /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux-Initialize.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/Linux.cmake /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake /home/dex/Documents/Code/C++/International-GPA-Calculator/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
 
 
 #############################################

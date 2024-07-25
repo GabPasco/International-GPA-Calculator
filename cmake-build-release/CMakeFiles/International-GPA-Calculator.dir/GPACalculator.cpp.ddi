@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "CMakeFiles/International-GPA-Calculator.dir/GPACalculator.cpp.o",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}

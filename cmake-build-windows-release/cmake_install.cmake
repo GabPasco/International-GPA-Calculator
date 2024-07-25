@@ -1,4 +1,4 @@
-# Install script for directory: /home/dex/Documents/Code/C++/GPACalculator
+# Install script for directory: /home/dex/Documents/Code/C++/International-GPA-Calculator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/dex/Documents/Code/C++/GPACalculator/cmake-build-windows-release/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/dex/Documents/Code/C++/International-GPA-Calculator/cmake-build-windows-release/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

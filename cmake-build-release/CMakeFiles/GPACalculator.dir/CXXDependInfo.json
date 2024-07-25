@@ -5,14 +5,14 @@
 	"compiler-simulate-id" : "",
 	"config" : "Release",
 	"cxx-modules" : {},
-	"dir-cur-bld" : "/home/dex/Documents/Code/C++/GPACalculator/cmake-build-release",
-	"dir-cur-src" : "/home/dex/Documents/Code/C++/GPACalculator",
-	"dir-top-bld" : "/home/dex/Documents/Code/C++/GPACalculator/cmake-build-release",
-	"dir-top-src" : "/home/dex/Documents/Code/C++/GPACalculator",
+	"dir-cur-bld" : "/home/dex/Documents/Code/C++/International-GPA-Calculator/cmake-build-release",
+	"dir-cur-src" : "/home/dex/Documents/Code/C++/International-GPA-Calculator",
+	"dir-top-bld" : "/home/dex/Documents/Code/C++/International-GPA-Calculator/cmake-build-release",
+	"dir-top-src" : "/home/dex/Documents/Code/C++/International-GPA-Calculator",
 	"exports" : [],
 	"forward-modules-from-target-dirs" : [],
 	"include-dirs" : [],
 	"language" : "CXX",
 	"linked-target-dirs" : [],
-	"module-dir" : "/home/dex/Documents/Code/C++/GPACalculator/cmake-build-release/CMakeFiles/GPACalculator.dir"
+	"module-dir" : "/home/dex/Documents/Code/C++/International-GPA-Calculator/cmake-build-release/CMakeFiles/GPACalculator.dir"
 }

@@ -1,0 +1,18 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "/home/dex/Documents/Code/C++/International-GPA-Calculator/cmake-build-debug",
+	"dir-cur-src" : "/home/dex/Documents/Code/C++/International-GPA-Calculator",
+	"dir-top-bld" : "/home/dex/Documents/Code/C++/International-GPA-Calculator/cmake-build-debug",
+	"dir-top-src" : "/home/dex/Documents/Code/C++/International-GPA-Calculator",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/home/dex/Documents/Code/C++/International-GPA-Calculator/cmake-build-debug/CMakeFiles/International-GPA-Calculator.dir"
+}
