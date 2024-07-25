@@ -1,0 +1,4 @@
+/home/dex/Clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Custom -DCMAKE_MAKE_PROGRAM=/home/dex/Clion/bin/ninja/linux/x64/ninja -DCMAKE_C_COMPILER=/usr/bin/x86_64-w64-mingw32-gcc -DCMAKE_CXX_COMPILER=/usr/bin/x86_64-w64-mingw32-g++ -G Ninja -S /home/dex/Documents/Code/C++/GPACalculator -B /home/dex/Documents/Code/C++/GPACalculator/cmake-build-windows-release
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/dex/Documents/Code/C++/GPACalculator/cmake-build-windows-release

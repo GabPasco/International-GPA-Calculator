@@ -1,0 +1,240 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 6.9.9-200.fc40.x86_64 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/x86_64-w64-mingw32-gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        /home/dex/Documents/Code/C++/GPACalculator/cmake-build-windows-release/CMakeFiles/3.28.1/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/x86_64-w64-mingw32-g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/dex/Documents/Code/C++/GPACalculator/cmake-build-windows-release/CMakeFiles/3.28.1/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/dex/Documents/Code/C++/GPACalculator/cmake-build-windows-release/CMakeFiles/CMakeScratch/TryCompile-NCufYr"
+      binary: "/home/dex/Documents/Code/C++/GPACalculator/cmake-build-windows-release/CMakeFiles/CMakeScratch/TryCompile-NCufYr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/dex/Documents/Code/C++/GPACalculator/cmake-build-windows-release/CMakeFiles/CMakeScratch/TryCompile-NCufYr'
+        
+        Run Build Command(s): /home/dex/Clion/bin/ninja/linux/x64/ninja -v cmTC_219cb
+        [1/2] /usr/bin/x86_64-w64-mingw32-gcc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_219cb.dir/CMakeCCompilerABI.c.o -c /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/x86_64-w64-mingw32-gcc
+        Target: x86_64-w64-mingw32
+        Configured with: ../configure --prefix=/usr --bindir=/usr/bin --includedir=/usr/include --mandir=/usr/share/man --infodir=/usr/share/info --datadir=/usr/share --build=x86_64-redhat-linux-gnu --host=x86_64-redhat-linux-gnu --with-gnu-as --with-gnu-ld --verbose --without-newlib --disable-multilib --disable-libcc1 --with-system-zlib --disable-nls --without-included-gettext --disable-win32-registry --enable-languages=c,c++,objc,obj-c++,fortran --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-threads=posix --without-isl --enable-libgomp --target=x86_64-w64-mingw32 --with-sysroot=/usr/x86_64-w64-mingw32/sys-root --with-gxx-include-dir=/usr/x86_64-w64-mingw32/sys-root/mingw/include/c++
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 14.1.1 20240607 (Fedora MinGW 14.1.1-3.fc40) (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_219cb.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_219cb.dir/'
+         /usr/libexec/gcc/x86_64-w64-mingw32/14.1.1/cc1 -quiet -v -D_REENTRANT /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_219cb.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/cc9dNzXn.s
+        GNU C17 (GCC) version 14.1.1 20240607 (Fedora MinGW 14.1.1-3.fc40) (x86_64-w64-mingw32)
+        	compiled by GNU C version 14.1.1 20240522 (Red Hat 14.1.1-4), GMP version 6.2.1, MPFR version 4.2.1, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/x86_64-w64-mingw32/sys-root/usr/local/include"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-w64-mingw32/14.1.1/../../../../x86_64-w64-mingw32/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-w64-mingw32/14.1.1/include
+         /usr/lib/gcc/x86_64-w64-mingw32/14.1.1/include-fixed
+         /usr/x86_64-w64-mingw32/sys-root/mingw/include
+        End of search list.
+        Compiler executable checksum: faca14258ff45ccd3e2d3a777c22b89d
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_219cb.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_219cb.dir/'
+         /usr/lib/gcc/x86_64-w64-mingw32/14.1.1/../../../../x86_64-w64-mingw32/bin/as -v -o CMakeFiles/cmTC_219cb.dir/CMakeCCompilerABI.c.o /tmp/cc9dNzXn.s
+        GNU assembler version 2.41 (x86_64-w64-mingw32) using BFD version version 2.41-3.fc40
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-w64-mingw32/14.1.1/:/usr/libexec/gcc/x86_64-w64-mingw32/14.1.1/:/usr/libexec/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/14.1.1/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/14.1.1/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-w64-mingw32/14.1.1/:/usr/lib/gcc/x86_64-w64-mingw32/14.1.1/../../../../x86_64-w64-mingw32/lib/../lib/:/usr/x86_64-w64-mingw32/sys-root/mingw/lib/../lib/:/usr/lib/gcc/x86_64-w64-mingw32/14.1.1/../../../../x86_64-w64-mingw32/lib/:/usr/x86_64-w64-mingw32/sys-root/mingw/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_219cb.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_219cb.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /usr/bin/x86_64-w64-mingw32-gcc  -v CMakeFiles/cmTC_219cb.dir/CMakeCCompilerABI.c.o -o cmTC_219cb   && :
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/x86_64-w64-mingw32-gcc
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-w64-mingw32/14.1.1/lto-wrapper
+        Target: x86_64-w64-mingw32
+        Configured with: ../configure --prefix=/usr --bindir=/usr/bin --includedir=/usr/include --mandir=/usr/share/man --infodir=/usr/share/info --datadir=/usr/share --build=x86_64-redhat-linux-gnu --host=x86_64-redhat-linux-gnu --with-gnu-as --with-gnu-ld --verbose --without-newlib --disable-multilib --disable-libcc1 --with-system-zlib --disable-nls --without-included-gettext --disable-win32-registry --enable-languages=c,c++,objc,obj-c++,fortran --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-threads=posix --without-isl --enable-libgomp --target=x86_64-w64-mingw32 --with-sysroot=/usr/x86_64-w64-mingw32/sys-root --with-gxx-include-dir=/usr/x86_64-w64-mingw32/sys-root/mingw/include/c++
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 14.1.1 20240607 (Fedora MinGW 14.1.1-3.fc40) (GCC) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-w64-mingw32/14.1.1/:/usr/libexec/gcc/x86_64-w64-mingw32/14.1.1/:/usr/libexec/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/14.1.1/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/14.1.1/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-w64-mingw32/14.1.1/:/usr/lib/gcc/x86_64-w64-mingw32/14.1.1/../../../../x86_64-w64-mingw32/lib/../lib/:/usr/x86_64-w64-mingw32/sys-root/mingw/lib/../lib/:/usr/lib/gcc/x86_64-w64-mingw32/14.1.1/../../../../x86_64-w64-mingw32/lib/:/usr/x86_64-w64-mingw32/sys-root/mingw/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_219cb.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_219cb.'
+         /usr/libexec/gcc/x86_64-w64-mingw32/14.1.1/collect2 -plugin /usr/libexec/gcc/x86_64-w64-mingw32/14.1.1/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-w64-mingw32/14.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSVL4bp.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/usr/x86_64-w64-mingw32/sys-root -m i386pep -Bdynamic -o cmTC_219cb.exe /usr/x86_64-w64-mingw32/sys-root/mingw/lib/../lib/crt2.o /usr/lib/gcc/x86_64-w64-mingw32/14.1.1/crtbegin.o -L/usr/lib/gcc/x86_64-w64-mingw32/14.1.1 -L/usr/lib/gcc/x86_64-w64-mingw32/14.1.1/../../../../x86_64-w64-mingw32/lib/../lib -L/usr/x86_64-w64-mingw32/sys-root/mingw/lib/../lib -L/usr/lib/gcc/x86_64-w64-mingw32/14.1.1/../../../../x86_64-w64-mingw32/lib -L/usr/x86_64-w64-mingw32/sys-root/mingw/lib CMakeFiles/cmTC_219cb.dir/CMakeCCompilerABI.c.o -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 /usr/lib/gcc/x86_64-w64-mingw32/14.1.1/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_219cb.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_219cb.'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working C compiler: /usr/bin/x86_64-w64-mingw32-gcc"
+    directories:
+      source: "/home/dex/Documents/Code/C++/GPACalculator/cmake-build-windows-release/CMakeFiles/CMakeScratch/TryCompile-TC1jWC"
+      binary: "/home/dex/Documents/Code/C++/GPACalculator/cmake-build-windows-release/CMakeFiles/CMakeScratch/TryCompile-TC1jWC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/dex/Documents/Code/C++/GPACalculator/cmake-build-windows-release/CMakeFiles/CMakeScratch/TryCompile-TC1jWC'
+        
+        Run Build Command(s): /home/dex/Clion/bin/ninja/linux/x64/ninja -v cmTC_7d0ca
+        [1/2] /usr/bin/x86_64-w64-mingw32-gcc   -fdiagnostics-color=always -o CMakeFiles/cmTC_7d0ca.dir/testCCompiler.c.o -c /home/dex/Documents/Code/C++/GPACalculator/cmake-build-windows-release/CMakeFiles/CMakeScratch/TryCompile-TC1jWC/testCCompiler.c
+        [2/2] : && /usr/bin/x86_64-w64-mingw32-gcc   CMakeFiles/cmTC_7d0ca.dir/testCCompiler.c.o -o cmTC_7d0ca   && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/dex/Documents/Code/C++/GPACalculator/cmake-build-windows-release/CMakeFiles/CMakeScratch/TryCompile-NtPG7G"
+      binary: "/home/dex/Documents/Code/C++/GPACalculator/cmake-build-windows-release/CMakeFiles/CMakeScratch/TryCompile-NtPG7G"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/dex/Documents/Code/C++/GPACalculator/cmake-build-windows-release/CMakeFiles/CMakeScratch/TryCompile-NtPG7G'
+        
+        Run Build Command(s): /home/dex/Clion/bin/ninja/linux/x64/ninja -v cmTC_60a2d
+        [1/2] /usr/bin/x86_64-w64-mingw32-g++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_60a2d.dir/CMakeCXXCompilerABI.cpp.o -c /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/x86_64-w64-mingw32-g++
+        Target: x86_64-w64-mingw32
+        Configured with: ../configure --prefix=/usr --bindir=/usr/bin --includedir=/usr/include --mandir=/usr/share/man --infodir=/usr/share/info --datadir=/usr/share --build=x86_64-redhat-linux-gnu --host=x86_64-redhat-linux-gnu --with-gnu-as --with-gnu-ld --verbose --without-newlib --disable-multilib --disable-libcc1 --with-system-zlib --disable-nls --without-included-gettext --disable-win32-registry --enable-languages=c,c++,objc,obj-c++,fortran --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-threads=posix --without-isl --enable-libgomp --target=x86_64-w64-mingw32 --with-sysroot=/usr/x86_64-w64-mingw32/sys-root --with-gxx-include-dir=/usr/x86_64-w64-mingw32/sys-root/mingw/include/c++
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 14.1.1 20240607 (Fedora MinGW 14.1.1-3.fc40) (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_60a2d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_60a2d.dir/'
+         /usr/libexec/gcc/x86_64-w64-mingw32/14.1.1/cc1plus -quiet -v -D_REENTRANT /home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_60a2d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/ccOjFtHd.s
+        GNU C++17 (GCC) version 14.1.1 20240607 (Fedora MinGW 14.1.1-3.fc40) (x86_64-w64-mingw32)
+        	compiled by GNU C version 14.1.1 20240522 (Red Hat 14.1.1-4), GMP version 6.2.1, MPFR version 4.2.1, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/x86_64-w64-mingw32/sys-root/usr/local/include"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-w64-mingw32/14.1.1/../../../../x86_64-w64-mingw32/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/x86_64-w64-mingw32/sys-root/mingw/include/c++
+         /usr/x86_64-w64-mingw32/sys-root/mingw/include/c++/x86_64-w64-mingw32
+         /usr/x86_64-w64-mingw32/sys-root/mingw/include/c++/backward
+         /usr/lib/gcc/x86_64-w64-mingw32/14.1.1/include
+         /usr/lib/gcc/x86_64-w64-mingw32/14.1.1/include-fixed
+         /usr/x86_64-w64-mingw32/sys-root/mingw/include
+        End of search list.
+        Compiler executable checksum: 0845a783093acb88be041d9f5c6bc157
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_60a2d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_60a2d.dir/'
+         /usr/lib/gcc/x86_64-w64-mingw32/14.1.1/../../../../x86_64-w64-mingw32/bin/as -v -o CMakeFiles/cmTC_60a2d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccOjFtHd.s
+        GNU assembler version 2.41 (x86_64-w64-mingw32) using BFD version version 2.41-3.fc40
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-w64-mingw32/14.1.1/:/usr/libexec/gcc/x86_64-w64-mingw32/14.1.1/:/usr/libexec/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/14.1.1/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/14.1.1/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-w64-mingw32/14.1.1/:/usr/lib/gcc/x86_64-w64-mingw32/14.1.1/../../../../x86_64-w64-mingw32/lib/../lib/:/usr/x86_64-w64-mingw32/sys-root/mingw/lib/../lib/:/usr/lib/gcc/x86_64-w64-mingw32/14.1.1/../../../../x86_64-w64-mingw32/lib/:/usr/x86_64-w64-mingw32/sys-root/mingw/lib/
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_60a2d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_60a2d.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /usr/bin/x86_64-w64-mingw32-g++  -v CMakeFiles/cmTC_60a2d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_60a2d   && :
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/x86_64-w64-mingw32-g++
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-w64-mingw32/14.1.1/lto-wrapper
+        Target: x86_64-w64-mingw32
+        Configured with: ../configure --prefix=/usr --bindir=/usr/bin --includedir=/usr/include --mandir=/usr/share/man --infodir=/usr/share/info --datadir=/usr/share --build=x86_64-redhat-linux-gnu --host=x86_64-redhat-linux-gnu --with-gnu-as --with-gnu-ld --verbose --without-newlib --disable-multilib --disable-libcc1 --with-system-zlib --disable-nls --without-included-gettext --disable-win32-registry --enable-languages=c,c++,objc,obj-c++,fortran --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-threads=posix --without-isl --enable-libgomp --target=x86_64-w64-mingw32 --with-sysroot=/usr/x86_64-w64-mingw32/sys-root --with-gxx-include-dir=/usr/x86_64-w64-mingw32/sys-root/mingw/include/c++
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 14.1.1 20240607 (Fedora MinGW 14.1.1-3.fc40) (GCC) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-w64-mingw32/14.1.1/:/usr/libexec/gcc/x86_64-w64-mingw32/14.1.1/:/usr/libexec/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/14.1.1/:/usr/lib/gcc/x86_64-w64-mingw32/:/usr/lib/gcc/x86_64-w64-mingw32/14.1.1/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-w64-mingw32/14.1.1/:/usr/lib/gcc/x86_64-w64-mingw32/14.1.1/../../../../x86_64-w64-mingw32/lib/../lib/:/usr/x86_64-w64-mingw32/sys-root/mingw/lib/../lib/:/usr/lib/gcc/x86_64-w64-mingw32/14.1.1/../../../../x86_64-w64-mingw32/lib/:/usr/x86_64-w64-mingw32/sys-root/mingw/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_60a2d.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_60a2d.'
+         /usr/libexec/gcc/x86_64-w64-mingw32/14.1.1/collect2 -plugin /usr/libexec/gcc/x86_64-w64-mingw32/14.1.1/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-w64-mingw32/14.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccI929bC.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/usr/x86_64-w64-mingw32/sys-root -m i386pep -Bdynamic -o cmTC_60a2d.exe /usr/x86_64-w64-mingw32/sys-root/mingw/lib/../lib/crt2.o /usr/lib/gcc/x86_64-w64-mingw32/14.1.1/crtbegin.o -L/usr/lib/gcc/x86_64-w64-mingw32/14.1.1 -L/usr/lib/gcc/x86_64-w64-mingw32/14.1.1/../../../../x86_64-w64-mingw32/lib/../lib -L/usr/x86_64-w64-mingw32/sys-root/mingw/lib/../lib -L/usr/lib/gcc/x86_64-w64-mingw32/14.1.1/../../../../x86_64-w64-mingw32/lib -L/usr/x86_64-w64-mingw32/sys-root/mingw/lib CMakeFiles/cmTC_60a2d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 /usr/lib/gcc/x86_64-w64-mingw32/14.1.1/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_60a2d.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_60a2d.'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/dex/Clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:49 (try_compile)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Check for working CXX compiler: /usr/bin/x86_64-w64-mingw32-g++"
+    directories:
+      source: "/home/dex/Documents/Code/C++/GPACalculator/cmake-build-windows-release/CMakeFiles/CMakeScratch/TryCompile-y616U4"
+      binary: "/home/dex/Documents/Code/C++/GPACalculator/cmake-build-windows-release/CMakeFiles/CMakeScratch/TryCompile-y616U4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/dex/Documents/Code/C++/GPACalculator/cmake-build-windows-release/CMakeFiles/CMakeScratch/TryCompile-y616U4'
+        
+        Run Build Command(s): /home/dex/Clion/bin/ninja/linux/x64/ninja -v cmTC_17bb4
+        [1/2] /usr/bin/x86_64-w64-mingw32-g++   -fdiagnostics-color=always -o CMakeFiles/cmTC_17bb4.dir/testCXXCompiler.cxx.o -c /home/dex/Documents/Code/C++/GPACalculator/cmake-build-windows-release/CMakeFiles/CMakeScratch/TryCompile-y616U4/testCXXCompiler.cxx
+        [2/2] : && /usr/bin/x86_64-w64-mingw32-g++   CMakeFiles/cmTC_17bb4.dir/testCXXCompiler.cxx.o -o cmTC_17bb4   && :
+        
+      exitCode: 0
+...
